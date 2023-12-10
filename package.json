@@ -11,8 +11,7 @@
     "build": "tsc",
     "start:dev": "concurrently \"npm:start:server\" \"npm:build:dev\"",
     "test": "jest --watchAll --coverage",
-    "test:prod": "jest --watchAll --coverage --watchAll=false --passWithNoTests",
-    "prepare": "husky install"
+    "test:prod": "jest --watchAll --coverage --watchAll=false --passWithNoTests"
   },
   "keywords": [],
   "author": "Raquel Ortega",
@@ -30,7 +29,6 @@
     "@typescript-eslint/eslint-plugin": "^5.59.9",
     "@typescript-eslint/parser": "^5.59.9",
     "concurrently": "^8.1.0",
-    "husky": "^8.0.0",
     "debug": "^4.3.4",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
